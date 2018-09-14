@@ -1,0 +1,14 @@
+#outer-div {
+    width: 210px;
+    height: 210px;
+    position: absolute;
+    background-color: orange;
+}
+#inner-div {
+    width: 40px;
+    height: 40px;
+    left: 55px;
+    top: 55px;
+    position: absolute;
+    background-color: grey;
+}

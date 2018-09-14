@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>GitHub API</title>
+        <!-- <link href="https://fonts.googleapis.com/css?family=Work+Sans:300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> -->
+         <link rel="stylesheet" href="gitHubApi.css">
+    </head>
+    <body>
+
+        <div id="heading">GitHub API</div>
+
+        <form>
+            <input type="text" name="username" placeholder="your username" autocomplete="off">
+            <input type="password" name="password" placeholder="your password" autocomplete="off">
+            <input type="text" name="username-to-search" placeholder="username to search" autocomplete="off">
+            <button>Submit</button>
+        </form>
+
+        <div id="repos-container">
+        </div>
+        <!-- handlebars templates -->
+        <script id="repos" type="text/x-handlebars-template">
+            <h3>List of 10 repos</h3>
+            {{#each requireRepos}}
+                <div class="repo-single">
+                    <div class="picture">
+                        <img width="400px" height="400px"src="{{owner.avatar_url}}">
+                    </div>
+                    <div class="name">
+                        <h5>{{full_name}}</h5>
+                    </div>
+                    <div class="commits-container">
+
+                    </div>
+                </div>
+            {{/each}}
+        </script>
+
+        <script id="commitsId" type = "text/x-handlebars-template">
+            <ul>List of the last 10 commit messages:
+                {{#each commitsTemplate}}
+                    {{#commit}}
+                        <li>{{message}}</li>
+                    {{/commit}}
+                {{/each}}
+            </ul>
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="gitHubApi.js"></script>
+    </body>
+</html>

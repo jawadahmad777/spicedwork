@@ -1,0 +1,28 @@
+[
+    {
+        "Link": "https://www.sciencedaily.com/news/plants_animals/trees/",
+        "Text": "News of the Day"
+    },
+    {
+        "Link": "https://www.google.de/search?q",
+        "Text": "Go for the searching"
+    },
+    {
+        "Link":
+            "https://www.google.de/search?rlz=1C1CHBD_deDE758DE758&ei=_BIYW9WEGIa4swHZtoGICQ&q=color+picker&oq=c&gs_l=psy-ab.1.0.35i39k1l2j0i67k1l5j0l3.117773.117773.0.121485.1.1.0.0.0.0.204.204.2-1.1.0....0...1c.1.64.psy-ab..0.1.203....0.T34FsjSq3YY",
+        "Text": "Pick your favarate color from here"
+    },
+    {
+        "Link": "http://www.espncricinfo.com/",
+        "Text": "Here is my best game"
+    },
+    {
+        "Link":
+            "https://www.google.de/search?q=jungle&rlz=1C1CHBD_deDE758DE758&oq=jungle&aqs=chrome..69i57j0l5.31292j1j9&sourceid=chrome&ie=UTF-8",
+        "Text": "Some news about jungle"
+    },
+    {
+        "Link": "https://www.sciencedaily.com/news/plants_animals/trees/",
+        "Text": "Science of Treees and hurbs"
+    }
+]

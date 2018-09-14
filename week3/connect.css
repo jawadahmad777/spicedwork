@@ -1,0 +1,49 @@
+svg {
+    width: 50%;
+    height: 900px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+}
+/* #board {
+    position: relative;
+} */
+#restart {
+    position: absolute;
+    background-color: silver;
+    width: 20%;
+    height: 40px;
+    border-radius: 10%;
+    font-size: 20px;
+    color: red;
+    letter-spacing: 3px;
+    margin-left: 33%;
+
+    margin-top: 4%;
+    border: none;
+}
+.box {
+    position: fixed;
+    width: 25%;
+    height: 8%;
+    border: 1px solid red;
+    display: none;
+    margin-top: 23%;
+    margin-left: 25%;
+    background-color: silver;
+    padding-left: 12%;
+    padding-top: 25px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: red;
+    opacity: 0.5;
+}
+/* .some {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+
+    background-color: rgba(0, 0, 0, 0.1);
+} */

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>handlebars!</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id = "characters-list"></div>
+    <script id = "charactersList" type = "text/x-handlebars-template">
+        <h1>Details of authors:</h1>
+        {{#each castOfCharacters}}
+            <p>Name: {{ name }}<br> DateOfBirth: {{ born }} <br> Dead: {{died}}
+                <br>: SelectedWritings {{selectedWritings}}
+             <br>: Photo <img src="{{photo}}"> <br>: Quotes {{quote}}</p>
+        {{/each}}
+
+    </script>
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+    <script src = "handlebar.js"></script>
+    </body>
+</html>

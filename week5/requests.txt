@@ -1,0 +1,4 @@
+Mon Jun 25 2018 20:42:36 GMT+0200 (W. Europe Summer Time)	GET	/	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+
+Mon Jun 25 2018 20:42:37 GMT+0200 (W. Europe Summer Time)	GET	/favicon.ico	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Safari/537.36
+
